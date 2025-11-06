@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Nairobi Home Designs">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="Complete your furniture purchase securely with Nairobi Home Designs. Multiple payment options including M-Pesa available." />
+  <meta name="keywords" content="furniture checkout, payment, m-pesa, nairobi, kenya, delivery" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Checkout | Nairobi Home Designs</title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Nairobi Home Designs navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">NairobiHome<span>Designs</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						<li><a class="nav-link" href="blog.html">Blog</a></li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Checkout</h1>
+								<p class="mb-4">Complete your purchase with secure payment options and convenient delivery across Kenya.</p>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<!-- Hero image removed for checkout page -->
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		<div class="untree_co-section">
+		    <div class="container">
+		      <div class="row mb-5">
+		        <div class="col-md-12">
+		          <div class="border p-4 rounded" role="alert">
+		            Returning customer? <a href="#">Click here</a> to login and speed up your checkout process.
+		          </div>
+		        </div>
+		      </div>
+		      <div class="row">
+		        <div class="col-md-6 mb-5 mb-md-0">
+		          <h2 class="h3 mb-3 text-black">Delivery Details</h2>
+		          <div class="p-3 p-lg-5 border bg-white">
+		            <div class="form-group">
+		              <label for="c_county" class="text-black">County <span class="text-danger">*</span></label>
+		              <select id="c_county" class="form-control">
+		                <option value="">Select your county</option>
+		                <option value="nairobi">Nairobi</option>
+		                <option value="kiambu">Kiambu</option>
+		                <option value="machakos">Machakos</option>
+		                <option value="kajiado">Kajiado</option>
+		                <option value="nakuru">Nakuru</option>
+		                <option value="mombasa">Mombasa</option>
+		                <option value="kisumu">Kisumu</option>
+		                <option value="other">Other Counties</option>
+		              </select>
+		            </div>
+		            <div class="form-group row">
+		              <div class="col-md-6">
+		                <label for="c_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_fname" name="c_fname" required>
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_lname" name="c_lname" required>
+		              </div>
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-12">
+		                <label for="c_companyname" class="text-black">Company Name (Optional)</label>
+		                <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+		              </div>
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-12">
+		                <label for="c_address" class="text-black">Delivery Address <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Street address, Estate, Area" required>
+		              </div>
+		            </div>
+
+		            <div class="form-group mt-3">
+		              <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+		            </div>
+
+		            <div class="form-group row">
+		              <div class="col-md-6">
+		                <label for="c_town" class="text-black">Town / City <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_town" name="c_town" required>
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_estate" class="text-black">Estate / Area <span class="text-danger">*</span></label>
+		                <input type="text" class="form-control" id="c_estate" name="c_estate" required>
+		              </div>
+		            </div>
+
+		            <div class="form-group row mb-5">
+		              <div class="col-md-6">
+		                <label for="c_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+		                <input type="email" class="form-control" id="c_email_address" name="c_email_address" required>
+		              </div>
+		              <div class="col-md-6">
+		                <label for="c_phone" class="text-black">Phone Number <span class="text-danger">*</span></label>
+		                <input type="tel" class="form-control" id="c_phone" name="c_phone" placeholder="07XX XXX XXX" pattern="[0-9]{10}" required>
+		              </div>
+		            </div>
+
+		            <!-- Delivery Options -->
+		            <div class="form-group mb-4">
+		              <label class="text-black h5">Delivery Options</label>
+		              <div class="form-check">
+		                <input class="form-check-input" type="radio" name="deliveryOption" id="standardDelivery" checked>
+		                <label class="form-check-label" for="standardDelivery">
+		                  Standard Delivery (3-5 business days) - <strong>KSh 500-1,500</strong>
+		                </label>
+		              </div>
+		              <div class="form-check">
+		                <input class="form-check-input" type="radio" name="deliveryOption" id="expressDelivery">
+		                <label class="form-check-label" for="expressDelivery">
+		                  Express Delivery (1-2 business days) - <strong>KSh 1,500-3,000</strong>
+		                </label>
+		              </div>
+		              <div class="form-check">
+		                <input class="form-check-input" type="radio" name="deliveryOption" id="freeDelivery">
+		                <label class="form-check-label" for="freeDelivery">
+		                  <strong class="text-success">Free Delivery</strong> - Orders over KSh 15,000 within Nairobi
+		                </label>
+		              </div>
+		            </div>
+
+		            <!-- Assembly Service -->
+		            <div class="form-group mb-4">
+		              <label class="text-black h5">Assembly Service</label>
+		              <div class="form-check">
+		                <input class="form-check-input" type="checkbox" id="assemblyService">
+		                <label class="form-check-label" for="assemblyService">
+		                  Add professional assembly service - <strong>KSh 1,000 per item</strong>
+		                  <small class="d-block text-muted">Our experts will assemble your furniture at your location</small>
+		                </label>
+		              </div>
+		            </div>
+
+		            <div class="form-group">
+		              <label for="c_order_notes" class="text-black">Delivery Instructions</label>
+		              <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Any special delivery instructions, preferred delivery time, or notes for our team..."></textarea>
+		            </div>
+
+		          </div>
+		        </div>
+		        <div class="col-md-6">
+
+		          <div class="row mb-5">
+		            <div class="col-md-12">
+		              <h2 class="h3 mb-3 text-black">Promo Code</h2>
+		              <div class="p-3 p-lg-5 border bg-white">
+		                <label for="c_code" class="text-black mb-3">Enter your promo code for discounts</label>
+		                <div class="input-group w-75 couponcode-wrap">
+		                  <input type="text" class="form-control me-2" id="c_code" placeholder="Enter promo code" aria-label="Promo Code" aria-describedby="button-addon2">
+		                  <div class="input-group-append">
+		                    <button class="btn btn-black btn-sm" type="button" id="button-addon2">Apply</button>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+
+		          <div class="row mb-5">
+		            <div class="col-md-12">
+		              <h2 class="h3 mb-3 text-black">Your Order</h2>
+		              <div class="p-3 p-lg-5 border bg-white">
+		                <table class="table site-block-order-table mb-5">
+		                  <thead>
+		                    <th>Product</th>
+		                    <th>Total</th>
+		                  </thead>
+		                  <tbody>
+		                    <tr>
+		                      <td>Savannah Lounge Chair <strong class="mx-2">x</strong> 1</td>
+		                      <td>KSh 6,500</td>
+		                    </tr>
+		                    <tr>
+		                      <td>Kilimanjaro Office Chair <strong class="mx-2">x</strong> 1</td>
+		                      <td>KSh 8,200</td>
+		                    </tr>
+		                    <tr>
+		                      <td>Nairobi Dining Chair <strong class="mx-2">x</strong> 2</td>
+		                      <td>KSh 10,400</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+		                      <td class="text-black">KSh 25,100</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black"><strong>Delivery Fee</strong></td>
+		                      <td class="text-black">KSh 0</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black"><strong>Assembly Service</strong></td>
+		                      <td class="text-black">KSh 3,000</td>
+		                    </tr>
+		                    <tr>
+		                      <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+		                      <td class="text-black font-weight-bold"><strong>KSh 28,100</strong></td>
+		                    </tr>
+		                  </tbody>
+		                </table>
+
+		                <div class="border p-3 mb-3">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsempesa" role="button" aria-expanded="false" aria-controls="collapsempesa">M-Pesa Payment</a></h3>
+		                  <div class="collapse show" id="collapsempesa">
+		                    <div class="py-2">
+		                      <p class="mb-2"><strong>Pay via M-Pesa:</strong></p>
+		                      <ol class="small">
+		                        <li>Go to M-Pesa on your phone</li>
+		                        <li>Select Lipa Na M-Pesa</li>
+		                        <li>Choose Pay Bill</li>
+		                        <li>Enter Business No: <strong>123456</strong></li>
+		                        <li>Account No: <strong>NHD[OrderID]</strong></li>
+		                        <li>Amount: <strong>KSh 28,100</strong></li>
+		                      </ol>
+		                      <p class="mb-0 text-success"><strong>Instant order confirmation upon payment</strong></p>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="border p-3 mb-3">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Bank Transfer</a></h3>
+		                  <div class="collapse" id="collapsebank">
+		                    <div class="py-2">
+		                      <p class="mb-2"><strong>Bank Details:</strong></p>
+		                      <p class="mb-1">Bank: Kenya Commercial Bank</p>
+		                      <p class="mb-1">Account Name: Nairobi Home Designs Ltd</p>
+		                      <p class="mb-1">Account Number: 1234567890</p>
+		                      <p class="mb-1">Branch: Moi Avenue</p>
+		                      <p class="mb-0">Use your Order ID as reference</p>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="border p-3 mb-3">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsecard" role="button" aria-expanded="false" aria-controls="collapsecard">Credit/Debit Card</a></h3>
+		                  <div class="collapse" id="collapsecard">
+		                    <div class="py-2">
+		                      <p class="mb-2">Secure payment via card</p>
+		                      <div class="form-group">
+		                        <label for="cardNumber" class="small">Card Number</label>
+		                        <input type="text" class="form-control form-control-sm" id="cardNumber" placeholder="1234 5678 9012 3456">
+		                      </div>
+		                      <div class="row">
+		                        <div class="col-6">
+		                          <div class="form-group">
+		                            <label for="expiryDate" class="small">Expiry Date</label>
+		                            <input type="text" class="form-control form-control-sm" id="expiryDate" placeholder="MM/YY">
+		                          </div>
+		                        </div>
+		                        <div class="col-6">
+		                          <div class="form-group">
+		                            <label for="cvv" class="small">CVV</label>
+		                            <input type="text" class="form-control form-control-sm" id="cvv" placeholder="123">
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="border p-3 mb-5">
+		                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsecash" role="button" aria-expanded="false" aria-controls="collapsecash">Cash on Delivery</a></h3>
+		                  <div class="collapse" id="collapsecash">
+		                    <div class="py-2">
+		                      <p class="mb-0">Pay cash when your furniture is delivered. Available for orders within Nairobi metropolitan area. Additional KSh 200 service charge applies.</p>
+		                    </div>
+		                  </div>
+		                </div>
+
+		                <div class="form-group">
+		                  <div class="form-check">
+		                    <input class="form-check-input" type="checkbox" id="termsAgreement" required>
+		                    <label class="form-check-label small" for="termsAgreement">
+		                      I agree to the <a href="#">terms and conditions</a> and <a href="#">privacy policy</a>
+		                    </label>
+		                  </div>
+		                </div>
+
+		                <div class="form-group">
+		                  <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'" disabled id="placeOrderBtn">Place Order Securely</button>
+		                  <p class="text-center small mt-2 text-muted">Your payment information is secure and encrypted</p>
+		                </div>
+
+		              </div>
+		            </div>
+		          </div>
+
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
+		<!-- Start Trust Section -->
+		<div class="why-choose-section bg-light">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 text-center">
+						<h2 class="section-title mb-4">Shop With Confidence</h2>
+						<div class="row">
+							<div class="col-6 col-md-3">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/truck.svg" alt="Secure Delivery" class="imf-fluid">
+									</div>
+									<h6>Secure Delivery</h6>
+									<p class="small">Tracked & insured</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-3">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/return.svg" alt="Easy Returns" class="imf-fluid">
+									</div>
+									<h6>Easy Returns</h6>
+									<p class="small">30-day policy</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-3">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/support.svg" alt="Quality Guarantee" class="imf-fluid">
+									</div>
+									<h6>Quality Guarantee</h6>
+									<p class="small">2-year warranty</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-3">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/bag.svg" alt="Secure Payment" class="imf-fluid">
+									</div>
+									<h6>Secure Payment</h6>
+									<p class="small">SSL encrypted</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Trust Section -->
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+
+				<div class="sofa-img">
+					<img src="images/sofa.png" alt="Image" class="img-fluid">
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Our Newsletter</span></h3>
+
+							<form action="#" class="row g-3">
+								<div class="col-auto">
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="col-auto">
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">NairobiHome<span>Designs</span></a></div>
+						<p class="mb-4">Your trusted partner for quality furniture in Kenya. We bring you beautifully crafted pieces that combine style, comfort and durability for your home and office spaces.</p>
+
+						<ul class="list-unstyled custom-social">
+							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Customer Support</a></li>
+									<li><a href="#">Delivery Information</a></li>
+									<li><a href="#">Returns & Exchange</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">Our Team</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms of Service</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Living Room</a></li>
+									<li><a href="#">Bedroom</a></li>
+									<li><a href="#">Office Furniture</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Nairobi Home Designs</p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+		<script>
+			// Enable place order button when terms are agreed
+			document.getElementById('termsAgreement').addEventListener('change', function() {
+				document.getElementById('placeOrderBtn').disabled = !this.checked;
+			});
+		</script>
+	</body>
+
+</html>
